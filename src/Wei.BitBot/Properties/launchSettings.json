@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Wei.BitBot": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
