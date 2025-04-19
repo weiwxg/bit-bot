@@ -21,7 +21,7 @@ namespace Wei.BitBot.BlockBeats
     public class BlockBeatsDetectiveDataItem
     {
         public int Id { get; set; }
-        public int Artical_Id { get; set; }
+        public int Article_Id { get; set; }
         public string Title { get; set; } = default!;
         public string Content { get; set; } = default!;
         public string Url { get; set; } = default!;
