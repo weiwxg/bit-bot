@@ -20,7 +20,7 @@ namespace Wei.BitBot.BlockBeats
                 text += $"> ![图片](\"{Data.Img_Url}\")";
             }
 
-            text += $"\n [原文](https://www.theblockbeats.info/flash/{Data.Id})";
+            text += $"\n [原文](https://www.theblockbeats.info/flash/{Data.Artical_Id})";
 
             return new StringContent(JsonSerializer.Serialize(new
             {
