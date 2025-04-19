@@ -17,8 +17,10 @@ namespace Wei.BitBot.BlockBeats
             var text = $"#### {Data.Title} \n {AddBlockQuote(new ReverseMarkdown.Converter().Convert(Data.Content))}";
             if (!string.IsNullOrWhiteSpace(Data.Img_Url))
             {
-                text += $"> ![picture](\"{Data.Img_Url}\")";
+                text += $"> ![图片](\"{Data.Img_Url}\")";
             }
+
+            text += $"\n [原文](https://www.theblockbeats.info/flash/{Data.Id})";
 
             return new StringContent(JsonSerializer.Serialize(new
             {
